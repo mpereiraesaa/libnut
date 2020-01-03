@@ -15,8 +15,8 @@
     "test:it:win32": "jasmine test/integration/*.js",
     "build:debug": "cmake-js rebuild --debug",
     "build:debug:win": "cmake-js rebuild --debug -G \"Visual Studio 15 2017 Win64\"",
-    "build:release": "cmake-js rebuild",
-    "build:release:win": "cmake-js rebuild -G \"Visual Studio 15 2017 Win64\""
+    "build:release": "cmake-js rebuild -r electron -v 6.1.7",
+    "build:release:win": "cmake-js rebuild -G \"Visual Studio 15 2017 Win64\" -r electron -v 6.1.7"
   },
   "repository": {
     "type": "git",
