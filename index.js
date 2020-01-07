@@ -1,4 +1,4 @@
-const libnut = require("bindings")("nut.node");
+const libnut = require("bindings")("libnut.node");
 
 module.exports = libnut;
 
