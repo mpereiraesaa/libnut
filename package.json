@@ -12,7 +12,7 @@
     "test:win32": "jasmine test/*.js",
     "test:it:darwin:linux": "jasmine 'test/integration/*.js'",
     "test:it:win32": "jasmine test/integration/*.js",
-    "build": "node-gyp rebuild --jobs max --target=6.1.5 --dist-url=https://electronjs.org/headers",
+    "build": "node-gyp rebuild --jobs max --target=6.1.5 --dist-url=https://electronjs.org/headers"
   },
   "repository": {
     "type": "git",
