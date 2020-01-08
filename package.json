@@ -5,7 +5,7 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "patch": "node ./patch-packagename.js",
+    "clean": "node-gyp clean",
     "test": "run-script-os",
     "test:it": "run-script-os",
     "test:darwin:linux": "jasmine 'test/*.js'",
